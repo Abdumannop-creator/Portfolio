@@ -566,6 +566,7 @@ header.scrolled {
     grid-template-columns: 1fr 1fr;
     gap: 60px;
     background: var(--glass-bg);
+    backdrop-filter: blur(5px);
     padding: 50px;
     border-radius: 20px;
     border: 1px solid var(--glass-border);
@@ -645,7 +646,7 @@ header.scrolled {
     position: absolute;
     top: 10px;
     left: 0;
-    color: #fff;
+    color: #ffffff;
     pointer-events: none;
     transition: 0.3s;
 }
